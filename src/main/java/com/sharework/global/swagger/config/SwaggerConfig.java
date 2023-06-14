@@ -1,4 +1,4 @@
-package com.sharework.global.config;
+package com.sharework.global.swagger.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.models.Components;
@@ -21,9 +21,9 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI openAPI() {
         Info info = new Info()
-                .version("v1.0.0")
-                .title("API")
-                .description("");
+                .version("v2.0.0")
+                .title("sharework")
+                .description("쉐어워크 버전2입니다.");
 
         String jwt = "JWT";
         SecurityRequirement securityRequirement = new SecurityRequirement().addList(jwt); // 헤더에 토큰 포함
