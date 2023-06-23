@@ -28,8 +28,7 @@ spring:
 jwt:
   header: Authorization
   secret: rutyweorituwyerotiuweyrtoiuweyrtoweiurtywoeighdfsojkghsdfgsdofiguwyertouwdasdsadsadasdasda
-  access-token-validity-in-seconds: 600 # 10 min
-
+  access-token-validity-in-seconds: 86400000 # 10 min
 
 #swagger
 #springdoc:
